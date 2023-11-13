@@ -140,7 +140,7 @@ with gr.Blocks() as demo:
                 ["resource/audio_demo/gunshots.wav", "Provide the phonetic transcription for the speech."],
                 ["resource/audio_demo/gunshots.wav", "Please describe the audio."],
                 ["resource/audio_demo/gunshots.wav", "Recognize what the speaker says and describe the background audio at the same time."],
-                ["resource/audio_demo/gunshots.wav", "Please answer the speaker's question in detail based on the background sound."],
+                ["resource/audio_demo/gunshots.wav", "Use your strong reasoning skills to answer the speaker's question in detail based on the background sound."],
                 ["resource/audio_demo/duck.wav", "Please list each event in the audio in order."],
                 ["resource/audio_demo/duck.wav", "Based on the audio, write a story in detail. Your story should be highly related to the audio."],
                 ["resource/audio_demo/duck.wav", "How many speakers did you hear in this audio? Who are they?"],
