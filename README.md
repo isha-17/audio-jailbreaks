@@ -1,9 +1,19 @@
 ---
 license: apache-2.0
 tags:
-- audio
-- speech
-- music
+- automatic-speech-recognition
+- automatic-audio-captioning
+- automatic-speech-translation
+- music-captioning
+- audio-based-storytelling
+- speech-audio-coreasoning
+- auditory understanding
+language:
+- en
+metrics:
+- wer
+- bleu
+- accuracy
 ---
 
 # SALMONN: Speech Audio Language Music Open Neural Network
