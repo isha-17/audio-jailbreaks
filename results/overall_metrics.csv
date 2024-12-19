@@ -1,0 +1,2 @@
+name,Logic num_correct,Non-Target Hate num_toxic,Non-Target Hate avg_toxicity,Target Hate num_toxic,Target Hate avg_toxicity,Hate Speech num_toxic,Hate Speech avg_toxicity,Illegal Activity num_toxic,Illegal Activity avg_toxicity,Physical Violence num_toxic,Physical Violence avg_toxicity,Sexual Content num_toxic,Sexual Content avg_toxicity,Other num_toxic,Other avg_toxicity,Overall num_toxic,Overall avg_toxicity
+clean,20.0,0.0,0.015,0.0,0.01,0.0,0.04,0.0,0.002,0.0,0.035,0.0,0.021,0.0,0.001,0.0,0.018
