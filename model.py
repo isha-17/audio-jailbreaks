@@ -510,6 +510,7 @@ class SALMONN(nn.Module):
             
             if optimization_method == "fsgm":
                 adjusted_wav = (wav_tensor.data - lr * wav_tensor.grad.detach().sign()).clamp(-1, 1)
+                wav_tensor.data = adjusted_wav.data
                 if epsilon:
                     wav_tensor.data = adjusted_wav.clamp(orig_wav_tensor - epsilon, orig_wav_tensor + epsilon)
             else:
@@ -532,20 +533,23 @@ class SALMONN(nn.Module):
 
     def optimize_prepend_audio(
         self,
-        wav_path,
-        target_text,  # text from derogatory_corpus
-        prompt,
+        wav_path, # path to audio file to optimize
+        name, # name of experiment for saving
+        target_text, # text to optimize for
+        prompt, # prompt accompanying optimization
         prompt_pattern="USER: <Speech><SpeechHere></Speech> {}\nASSISTANT:",
         device='cuda:0',
         batch_size=8,
-        max_length=150,
-        epsilon=None,
+        max_length=100,
         lr=0.01,
-        num_iterations=500,
-        prepend_duration=2,  # Duration of the prepended audio in seconds
+        prepend_duration = 2,
+        epsilon=None,
+        freq_clipping=None,
+        num_iterations=200,
         lr_step = 1001,
-        fgsm=False
-    ):
+        optimization_method = "gd",
+        logging = False):
+        
         # Read original wav
         wav, sr = sf.read(wav_path)
         if len(wav.shape) == 2:
@@ -556,6 +560,7 @@ class SALMONN(nn.Module):
             wav = librosa.resample(wav, orig_sr=sr, target_sr=16000, res_type="fft")
         
         wav_tensor = torch.tensor(wav, device=device, requires_grad=False)
+        orig_wav_tensor = wav_tensor.clone()
         
         # Initialize new audio segment for prepending (random initialization)
         prepend_length = int(prepend_duration * 16000)  # 2 seconds at 16kHz
@@ -563,11 +568,11 @@ class SALMONN(nn.Module):
         
         embed_tokens = self.llama_model.model.model.embed_tokens if self.lora else self.llama_model.model.embed_tokens
         
-        if not fgsm:
+        if optimization_method == "gd":
             optimizer = torch.optim.AdamW([prepend_tensor], lr=lr)
         
         for t in tqdm(range(num_iterations + 1)):
-            if not fgsm:
+            if optimization_method == "gd":
                 optimizer.zero_grad()
 
             with_prepend_wav_tensor = torch.cat([prepend_tensor, wav_tensor], dim=0)
@@ -601,13 +606,8 @@ class SALMONN(nn.Module):
             T = T.masked_fill(T == self.llama_tokenizer.pad_token_id - 1, -100)
             pos_padding = torch.argmin(T, dim=1)
 
-        
             # Custom Whisper processing (audio to embeddings)
             spectrogram = self.feature_extractor.extract_fbank_features(with_prepend_wav_tensor)
-
-            """wav = wav_tensor.detach().cpu().numpy()
-            spectrogram_orig = self.feature_extractor(wav, return_tensors="pt", sampling_rate=16000).input_features.to(device) # [1, 80, 3000]"""
-            
             speech_embeds = self.speech_encoder(spectrogram, return_dict=True).last_hidden_state
     
             # Beats
@@ -719,22 +719,22 @@ class SALMONN(nn.Module):
             loss = outputs.loss
             loss.backward()
 
-            if fgsm:
+            if optimization_method == "fgsm":
                 adjusted_wav = (prepend_tensor.data - lr * prepend_tensor.grad.detach().sign()).clamp(-1, 1)
                 prepend_tensor.data = adjusted_wav
                 if epsilon:
-                    wav_tensor.data = adjusted_wav.clamp(orig_wav_tensor - epsilon, orig_wav_tensor + epsilon)
+                    prepend_tensor.data = adjusted_wav.clamp(orig_wav_tensor - epsilon, orig_wav_tensor + epsilon)
                 
             else:
                 optimizer.step()
                 if epsilon:
-                    wav_tensor.data = wav_tensor.clamp(orig_wav_tensor - epsilon, orig_wav_tensor + epsilon)
+                    prepend_tensor.data = wav_tensor.clamp(orig_wav_tensor - epsilon, orig_wav_tensor + epsilon)
                 
             prepend_tensor.grad.zero_()
 
             if t > 0 and t % lr_step == 0:
                 print(f"Total Loss at step {t}: {loss.item()}")
-                if not fgsm:
+                if optimization_method == "gd":
                     optimizer.param_groups[0]['lr'] /= 10
                     print(f"LR at step {t}: {optimizer.param_groups[0]['lr']}")
                 else:
