@@ -745,5 +745,223 @@ class SALMONN(nn.Module):
         prepend_snippet = prepend_tensor.detach().cpu().numpy()
         combined_audio = np.concatenate([prepend_snippet, wav])  # Combine the prepended snippet with the original audio
         return combined_audio
+    
+    def generate_universal_jailbreak(
+        self,
+        wav_path, 
+        base_audios, #paths to base audios
+        name, # name of experiment for saving
+        target_text, # text to optimize for
+        prompt, # prompt accompanying optimization
+        prompt_pattern="USER: <Speech><SpeechHere></Speech> {}\nASSISTANT:",
+        device='cuda:0',
+        batch_size=8,
+        max_length=100,
+        lr=0.01,
+        epsilon=None,
+        num_iterations=200,
+        lr_step = 1001,
+        optimization_method = "gd",
+        logging = False):
+    
+    
+        # Read wav
+        wav, sr = sf.read(wav_path)
+        if len(wav.shape) == 2:
+            wav = wav[:, 0]
+        if len(wav) > 30 * sr:
+            wav = wav[: 30 * sr]
+        if sr != 16000:
+            wav = librosa.resample(wav, orig_sr=sr, target_sr=16000, res_type="fft")
+            
+        wav_tensor = torch.tensor(wav, device=device, requires_grad=True)
+        orig_wav_tensor = wav_tensor.detach().clone()
+    
+        base_tensors = []
+        for wav_path in base_audios:
+            wav, sr = sf.read(wav_path)
+            if len(wav.shape) == 2:
+                wav = wav[:, 0]
+            if len(wav) > 30 * sr:
+                wav = wav[:30 * sr]
+            if sr != 16000:
+                wav = librosa.resample(wav, orig_sr=sr, target_sr=16000, res_type="fft")
+            base_tensors.append(torch.tensor(wav, device=device))
+        
+        if optimization_method == "gd":
+            optimizer = torch.optim.AdamW([wav_tensor], lr=lr)
+            scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=lr_step, gamma=0.1)
+    
+        embed_tokens = self.llama_model.model.model.embed_tokens if self.lora else self.llama_model.model.embed_tokens
 
+        # Prepare prompt embeddings
+        prompt_left, prompts_right = prompt_pattern.format(prompt).split('<SpeechHere>')
+        prompt_left_ids = self.llama_tokenizer(prompt_left, return_tensors="pt", add_special_tokens=False).to(device).input_ids
+        prompt_left_embeds = embed_tokens(prompt_left_ids).repeat(batch_size, 1, 1)
+        prompt_right_ids = self.llama_tokenizer(prompts_right, return_tensors="pt", add_special_tokens=False).to(device).input_ids
+        prompt_right_embeds = embed_tokens(prompt_right_ids).repeat(batch_size, 1, 1)
+        
+        for t in tqdm(range(num_iterations + 1)):
+    
+            sampled_target_text = random.sample(target_text, batch_size)
+            to_regress_tokens = self.llama_tokenizer(
+                sampled_target_text,
+                add_special_tokens=False,
+                padding="longest",
+                truncation=True,
+                max_length=max_length,
+                return_tensors="pt" 
+            ).to(device)
+            target_ids = to_regress_tokens.input_ids
+            target_ids = target_ids.clamp(max=embed_tokens.weight.shape[0] - 1) #rly weird but necessary apparently
+            embedded_targets = embed_tokens(target_ids)
+    
+            bos = torch.ones([1, 1],
+                            dtype=target_ids.dtype,
+                            device=target_ids.device) * self.llama_tokenizer.bos_token_id
+            bos_embs = embed_tokens(bos)
+    
+            pad = torch.ones([1, 1],
+                            dtype=target_ids.dtype,
+                            device=target_ids.device) * (self.llama_tokenizer.pad_token_id - 1)
+            pad_embs = embed_tokens(pad)
+            
+            T = target_ids.clone()  # Cloning to prevent unintended in-place modification
+            T = T.masked_fill(T == self.llama_tokenizer.pad_token_id - 1, -100)
+            pos_padding = torch.argmin(T, dim=1)
+    
+            total_loss = 0
+    
+            for i, wav_base in enumerate(base_tensors):
+                if optimization_method == "gd":
+                    optimizer.zero_grad()
+                max_length = wav_tensor.size(0)
+                clipped_wav_base = wav_base[:max_length]
+                clipped_wav_tensor = wav_tensor[:max_length]
+                noisy_wav = clipped_wav_base + clipped_wav_tensor
+
+                # Custom Whisper processing (audio to embeddings)
+                spectrogram = self.feature_extractor.extract_fbank_features(noisy_wav)
+                speech_embeds = self.speech_encoder(spectrogram, return_dict=True).last_hidden_state
+    
+                raw_wav = noisy_wav.unsqueeze(0)
+                audio_padding_mask = torch.zeros(raw_wav.shape, device=device).bool()
+                audio_embeds, _ = self.beats.extract_features(raw_wav, padding_mask=audio_padding_mask, feature_only=True)
+        
+                # Auditory embeds
+                speech_embeds = self.ln_speech(speech_embeds)
+                audio_embeds = self.ln_audio(audio_embeds)
+                audio_embeds = F.pad(audio_embeds, (0, 0, 0, speech_embeds.size(1) - audio_embeds.size(1)))
+                speech_embeds = torch.cat([speech_embeds, audio_embeds], dim=-1)
+                
+                # Frame splitting for temporal alignment
+                B, T2, C = speech_embeds.shape
+                kernel = round(T2 * self.second_per_frame / 30.0)
+                stride = round(T2 * self.second_stride / 30.0)
+                kernel = (1, kernel)
+                stride = (1, stride)
+                speech_embeds_tr = speech_embeds.transpose(1, 2).unsqueeze(2)
+                speech_embeds_overlap = F.unfold(speech_embeds_tr, kernel_size=kernel, dilation=1, padding=0, stride=stride)
+                _, _, L = speech_embeds_overlap.shape
+                speech_embeds_overlap = speech_embeds_overlap.view(B, -1, kernel[1], L)
+                speech_embeds_overlap = torch.permute(speech_embeds_overlap, [0, 3, 2, 1])
+                speech_embeds = speech_embeds_overlap.reshape(-1, kernel[1], C)
+                speech_atts = torch.ones(speech_embeds.size()[:-1], dtype=torch.long, device=speech_embeds.device)
+            
+                # QFormer processing
+                query_tokens = self.speech_query_tokens.expand(speech_embeds.shape[0], -1, -1)
+                query_output = self.speech_Qformer.bert(
+                    query_embeds=query_tokens,
+                    encoder_hidden_states=speech_embeds,
+                    encoder_attention_mask=speech_atts,
+                    return_dict=True,
+                )
+                
+                speech_embeds = self.speech_llama_proj(query_output.last_hidden_state)
+                speech_embeds = speech_embeds.view(B, -1, speech_embeds.size(2)).contiguous().repeat(batch_size, 1, 1)
+                speech_atts = torch.ones(speech_embeds.size()[:-1], dtype=torch.long).to(speech_embeds.device)
+    
+                context_embs = torch.cat((prompt_left_embeds, speech_embeds, prompt_right_embeds), dim=1)
+    
+                input_embs = []
+                targets_mask = []
+    
+                target_tokens_length = []
+                context_tokens_length = []
+                seq_tokens_length = []
+    
+                for i in range(batch_size):
+                    pos = int(pos_padding[i])
+                    if T[i][pos] == -100:
+                        target_length = pos
+                    else:
+                        target_length = T.shape[1]
+    
+                    targets_mask.append(T[i:i+1, :target_length])
+                    input_embs.append(embedded_targets[i:i+1, :target_length]) # omit the padding tokens
+    
+                    context_length = context_embs[i].unsqueeze(0).shape[1] #HERE
+                    seq_length = target_length + context_length
+    
+                    target_tokens_length.append(target_length)
+                    context_tokens_length.append(context_length)
+                    seq_tokens_length.append(seq_length)
+    
+                max_seq_length = max(seq_tokens_length)
+    
+                attention_mask = []
+    
+                for i in range(batch_size):
+    
+                    # masked out the context from loss computation
+                    context_mask =(
+                        torch.ones([1, context_tokens_length[i] + 1],
+                                dtype=torch.long).to(device).fill_(-100)  # plus one for bos
+                    )
+    
+                    # padding to align the length
+                    num_to_pad = max_seq_length - seq_tokens_length[i]
+                    padding_mask = (
+                        torch.ones([1, num_to_pad],
+                                dtype=torch.long).to(device).fill_(-100)
+                    )
+    
+                    targets_mask[i] = torch.cat( [context_mask, targets_mask[i], padding_mask], dim=1 )
+                    input_embs[i] = torch.cat( [bos_embs, context_embs[i].unsqueeze(0), input_embs[i],
+                                                pad_embs.repeat(1, num_to_pad, 1)], dim=1 )
+                    
+                    attention_mask.append(torch.LongTensor( [[1]* (1+seq_tokens_length[i]) + [0]*num_to_pad]))
+    
+                targets = torch.cat( targets_mask, dim=0 ).to(device)
+                inputs_embs = torch.cat( input_embs, dim=0 ).to(device)
+                attention_mask = torch.cat(attention_mask, dim=0).to(device)
+    
+                outputs = self.llama_model(
+                    inputs_embeds=inputs_embs,
+                    attention_mask=attention_mask,
+                    return_dict=True,
+                    labels=targets,
+                )
+                torch.cuda.empty_cache()
+                (outputs.loss / len(base_tensors)).backward()
+    
+
+                print(wav_tensor.grad)
+                if optimization_method == "fsgm":
+                    adjusted_wav = (wav_tensor.data - lr * wav_tensor.grad.detach().sign()).clamp(-1, 1)
+                    wav_tensor.data = adjusted_wav.data
+                    if epsilon:
+                        wav_tensor.data = adjusted_wav.clamp(orig_wav_tensor - epsilon, orig_wav_tensor + epsilon)
+                else:
+                    optimizer.step()
+                    if epsilon:
+                        wav_tensor.data = wav_tensor.data.clamp(orig_wav_tensor - epsilon, orig_wav_tensor + epsilon)
+            
+                wav_tensor.grad.zero_()
+
+            if t > 0 and t % lr_step == 0:
+                print(f"Loss at step {t}: {total_loss.item()}")
+                lr = lr / 10
+        
+        return wav_tensor.detach().cpu().numpy()
 
