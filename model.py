@@ -945,8 +945,6 @@ class SALMONN(nn.Module):
                 torch.cuda.empty_cache()
                 (outputs.loss / len(base_tensors)).backward()
     
-
-                print(wav_tensor.grad)
                 if optimization_method == "fsgm":
                     adjusted_wav = (wav_tensor.data - lr * wav_tensor.grad.detach().sign()).clamp(-1, 1)
                     wav_tensor.data = adjusted_wav.data

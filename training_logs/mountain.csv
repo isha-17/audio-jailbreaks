@@ -1,0 +1,1002 @@
+step,total_loss,learning_rate,beats_features,whisper_features
+0,3.357421875,0.01,"['/m/09x0r', '/m/0ytgt', '/t/dd00121', '/m/07qyrcz', '/m/07phxs1']", What is the highest mountain in the world?
+1,3.08203125,0.01,"['/m/09x0r', '/m/0ytgt', '/t/dd00129', '/m/07r10fb', '/m/07prgkl']", What is the highest mountain in the world?
+2,3.529296875,0.01,"['/m/09x0r', '/m/0ytgt', '/m/07prgkl', '/t/dd00129', '/m/07r10fb']", What is the highest mountain in the world?
+3,2.923828125,0.01,"['/m/09x0r', '/m/0ytgt', '/m/07prgkl', '/t/dd00129', '/m/07pqc89']", What is the highest mountain in the world?
+4,3.291015625,0.01,"['/m/09x0r', '/m/0ytgt', '/m/07prgkl', '/m/07pqc89', '/m/0838f']", What is the highest mountain in the world?
+5,2.9765625,0.01,"['/m/09x0r', '/m/0ytgt', '/m/07prgkl', '/m/07pqc89', '/m/0838f']", What is the highest mountain in the world?
+6,3.326171875,0.01,"['/m/09x0r', '/m/0ytgt', '/m/04rlf', '/m/07prgkl', '/m/0838f']", What is the highest mountain in the world?
+7,2.85546875,0.01,"['/m/09x0r', '/m/0ytgt', '/m/04rlf', '/m/07prgkl', '/m/0838f']", What is the highest mountain in the world?
+8,2.89453125,0.01,"['/m/09x0r', '/m/0ytgt', '/m/04rlf', '/m/0dv3j', '/m/0838f']", What is the hardest mountain in the world?
+9,2.705078125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0dv3j', '/m/0838f']", What is the hardest mountain in the world?
+10,3.083984375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0dv3j', '/m/0838f']", What is the hardest mountain in the world?
+11,2.830078125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0dv3j', '/m/0838f']", What is the highest mountain in the world?
+12,2.9296875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0dv3j', '/m/0838f']", What is the highest mountain in the world?
+13,3.052734375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", What is the highest mountain in the world?
+14,3.25,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", What is the highest mountain in the world?
+15,3.2734375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", What is the highest mountain in the world?
+16,3.00390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07pjwq1']", What is the hardest mountain in the world?
+17,2.525390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07pjwq1']", What is the hardest mountain in the world?
+18,2.88671875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07pjwq1']", Blood is the hardest mountain in the world.
+19,2.533203125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07yv9']", Blood is the hardest mountain in the world.
+20,2.78125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07yv9']", What is the highest mountain in the world?
+21,2.994140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07yv9']", What is the highest mountain in the world?
+22,2.49609375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07yv9']", What is the highest mountain in the world?
+23,2.568359375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07yv9']", What is the highest mountain in the world?
+24,2.908203125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07yv9']", What is the highest mountain in the world?
+25,2.626953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07yv9']", What is the highest mountain in the world?
+26,2.275390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07yv9']", What is the highest mountain in the world?
+27,2.341796875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07yv9']", Wood is the highest mountain in the world.
+28,2.109375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07yv9']", What is the highest mountain in the world?
+29,2.708984375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07yv9']", What is the highest mountain in the world?
+30,2.30078125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07yv9']", What is the highest mountain in the world?
+31,2.486328125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Wood is the highest mountain in the world.
+32,2.8671875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Wood is the highest mountain in the world.
+33,2.55859375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Wood is the highest mountain in the world.
+34,2.4609375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Wood is the highest mountain in the world.
+35,2.54296875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Wood is the highest mountain in the world.
+36,2.193359375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Wood is the highest mountain in the world.
+37,2.5078125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Wood is the highest mountain in the world.
+38,2.29296875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Wood is the highest mountain in the world.
+39,2.8515625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Wood is the highest mountain in the world.
+40,2.6640625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Wood is the highest mountain in the world.
+41,2.197265625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the highest mounting in the world.
+42,2.443359375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Wood is the highest mountain in the world.
+43,2.173828125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", What is the highest mountain in the world?
+44,2.337890625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", What is the highest mounting in the world?
+45,2.177734375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", What is the highest mounting in the world?
+46,2.40234375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", What is the highest mountain in the world?
+47,2.185546875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", What is the highest mountain in the world?
+48,2.38671875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", What is the height it's mounting in the world?
+49,2.380859375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", What is the height it's mounting in the world?
+50,2.263671875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", What is the height it's mounting in the world?
+51,2.4140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", What is the height it's mounting in the world?
+52,2.06640625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", What is the height it's mounting in the world?
+53,2.171875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", What is the height it's mounting in the world?
+54,2.001953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", What is the height it's mounting in the world?
+55,2.55859375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", What is the highest mountain in the world?
+56,2.41796875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", What is the highest mountain in the world?
+57,2.533203125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", What is the highest mountain in the world?
+58,2.33203125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", What is the highest mountain in the world?
+59,2.486328125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", What is the highest mountain in the world?
+60,2.220703125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Wood is the highest mountain in the world.
+61,2.642578125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Wood is the highest mountain in the world.
+62,2.42578125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Wood is the highest mountain in the world.
+63,1.857421875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hate that's mounting in the world.
+64,2.228515625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hottest magazine in the world.
+65,2.76171875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hottest magazine in the world.
+66,2.154296875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hate that's mounting in the world.
+67,1.900390625,0.01,"['/m/09x0r', '/m/0ytgt', '/m/04rlf', '/m/07pjwq1', '/t/dd00129']", Food is the hate that's mounting in the world.
+68,1.9951171875,0.01,"['/m/09x0r', '/m/0ytgt', '/m/04rlf', '/m/07pjwq1', '/t/dd00129']", Food is the hottest mountain in the world.
+69,2.3671875,0.01,"['/m/09x0r', '/m/0ytgt', '/m/04rlf', '/m/07pjwq1', '/t/dd00129']", What is the highest mountain in the world?
+70,2.201171875,0.01,"['/m/09x0r', '/m/0ytgt', '/m/04rlf', '/m/07pjwq1', '/t/dd00129']", What is the highest mountain in the world?
+71,2.091796875,0.01,"['/m/09x0r', '/m/0ytgt', '/m/04rlf', '/m/07pjwq1', '/t/dd00129']", What is the hottest mountain in the world?
+72,2.16796875,0.01,"['/m/09x0r', '/m/0ytgt', '/m/04rlf', '/m/07pjwq1', '/t/dd00129']", Food is the hottest magazine in the world.
+73,2.224609375,0.01,"['/m/09x0r', '/m/0ytgt', '/m/04rlf', '/m/07pjwq1', '/t/dd00129']", Food is the hottest magazine in the world.
+74,2.232421875,0.01,"['/m/09x0r', '/m/0ytgt', '/m/04rlf', '/m/07pjwq1', '/t/dd00129']", What is the hottest mountain in the world?
+75,1.8828125,0.01,"['/m/09x0r', '/m/0ytgt', '/m/04rlf', '/m/07pjwq1', '/t/dd00129']", What is the height it's mounting in the world?
+76,2.037109375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", What is the hate that's mounting in the world?
+77,2.328125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", What is the height it's mounting in the world?
+78,2.248046875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", What is the height it's mounting in the world?
+79,2.25,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", What is the height it's mounting in the world?
+80,2.490234375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", What is the height it's mounting in the world?
+81,2.142578125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hottest mountain in the world.
+82,2.0625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hottest mountain in the world.
+83,1.8095703125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", What is the height it's mounting in the world?
+84,2.306640625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hottest mountain in the world.
+85,2.1875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hottest mountain in the world.
+86,2.501953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hottest mountain in the world.
+87,2.015625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hottest magazine in the world.
+88,2.205078125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hottest magazine in the world.
+89,2.115234375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hottest magazine in the world.
+90,2.01953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hottest magazine in the world.
+91,2.189453125,0.01,"['/m/09x0r', '/m/0ytgt', '/m/04rlf', '/m/07pjwq1', '/t/dd00129']", Food is the hottest magazine in the world.
+92,2.65234375,0.01,"['/m/09x0r', '/m/0ytgt', '/m/04rlf', '/m/07pjwq1', '/t/dd00129']", Food is the hottest magazine in the world.
+93,2.0078125,0.01,"['/m/09x0r', '/m/0ytgt', '/m/04rlf', '/m/07pjwq1', '/t/dd00129']", Food is the hottest magazine in the world.
+94,2.150390625,0.01,"['/m/09x0r', '/m/0ytgt', '/m/04rlf', '/m/07pjwq1', '/t/dd00129']", Food is the hottest mountain in the world.
+95,2.029296875,0.01,"['/m/09x0r', '/m/0ytgt', '/m/04rlf', '/m/07pjwq1', '/t/dd00129']", What is the highest mounting in the world?
+96,2.16015625,0.01,"['/m/09x0r', '/m/0ytgt', '/m/04rlf', '/m/07pjwq1', '/t/dd00129']", What is the highest mounting in the world?
+97,2.05859375,0.01,"['/m/09x0r', '/m/0ytgt', '/m/04rlf', '/m/07pjwq1', '/t/dd00129']", Food is the hottest mountain in the world.
+98,1.9814453125,0.01,"['/m/09x0r', '/m/0ytgt', '/m/04rlf', '/m/07pjwq1', '/t/dd00129']", Food is the hottest mountain in the world.
+99,2.3984375,0.01,"['/m/09x0r', '/m/0ytgt', '/m/04rlf', '/m/07pjwq1', '/t/dd00129']", Food is the hottest mountain in the world.
+100,1.779296875,0.01,"['/m/09x0r', '/m/0ytgt', '/m/04rlf', '/m/07pjwq1', '/t/dd00129']", Food is the hottest mountain in the world.
+101,2.24609375,0.01,"['/m/09x0r', '/m/0ytgt', '/m/04rlf', '/m/07pjwq1', '/t/dd00129']", Food is the hate that's mounting in the world.
+102,2.400390625,0.01,"['/m/09x0r', '/m/0ytgt', '/m/04rlf', '/m/07pjwq1', '/t/dd00129']", Food is the hate that's mounting in the world.
+103,2.10546875,0.01,"['/m/09x0r', '/m/0ytgt', '/m/04rlf', '/m/07pjwq1', '/t/dd00129']", Food is the highest mounting in the world.
+104,2.181640625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the highest mounting in the world.
+105,1.9990234375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hottest magazine in the world.
+106,1.896484375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hottest magazine in the world.
+107,2.21875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hottest magazine in the world.
+108,2.046875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hottest magazine in the world.
+109,2.244140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hottest magazine in the world.
+110,2.228515625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hottest magazine in the world.
+111,1.97265625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hate that's mounting in the world.
+112,2.322265625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hottest magazine in the world.
+113,2.814453125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hate that's mounting in the world.
+114,2.076171875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hottest magazine in the world.
+115,1.9736328125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hottest magazine in the world.
+116,2.193359375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hottest magazine in the world.
+117,2.419921875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Food is the highest mounting in the world.
+118,2.01953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Food is the highest mounting in the world.
+119,1.9453125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Food is the highest mounting in the world.
+120,2.16796875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Food is the highest mounting in the world.
+121,1.947265625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Food is the highest mounting in the world.
+122,1.99609375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Moon is the highest mountain in the world.
+123,2.232421875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Moon is the hay that's mounting in the world.
+124,2.373046875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Moon is the hay that's mounting in the world.
+125,2.3671875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Moon is the height it's mounting in the world.
+126,2.0,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Moon is the height it's mounting in the world.
+127,2.044921875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hate that's mounting in the world.
+128,1.9443359375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hate that's mounting in the world.
+129,1.9970703125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hate that's mounting in the world.
+130,1.8564453125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", What is the hate that's mounting in the world?
+131,1.8671875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hate that's mounting in the world.
+132,2.2421875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hate that's mounting in the world.
+133,2.111328125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hate that's mounting in the world.
+134,2.107421875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hate that's mounting in the world.
+135,1.935546875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hay that's mounting in the world.
+136,2.65625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hay it's mounting in the world.
+137,2.4921875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hay it's mounting in the world.
+138,1.7734375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hay it's mounting in the world.
+139,2.140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Food is the hay it's mounting in the world.
+140,1.6748046875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Food is the hay it's mounting in the world.
+141,2.19921875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Food is the hay it's mounting in the world.
+142,2.09765625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Food is the hate that's mounting in the world.
+143,2.07421875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Food is the hate that's mounting in the world.
+144,2.29296875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Food is the hate that's mounting in the world.
+145,1.9921875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Food is the hate that's mounting in the world.
+146,1.8994140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Food is the hate that's mounting in the world.
+147,2.36328125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Food is the hate that's mounting in the world.
+148,1.8408203125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Food is the hate that's mounting in the world.
+149,2.017578125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Food is the hate that's mounting in the world.
+150,1.931640625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Moon is the height it's mounting in the world.
+151,2.498046875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Moon is the highest mountain in the world.
+152,1.80859375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Moon is the highest mountain in the world.
+153,2.029296875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Moon is the highest mountain in the world.
+154,2.390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Food is the hate that's mounting in the world.
+155,2.34765625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Food is the hate that's mounting in the world.
+156,2.232421875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Food is the hate that's mounting in the world.
+157,2.2421875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Food is the hate that's mounting in the world.
+158,2.28125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Food is the hate that's mounting in the world.
+159,2.162109375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Food is the hate that's mounting in the world.
+160,2.23828125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Food is the hate that's mounting in the world.
+161,2.154296875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hate that's mounting in the world.
+162,2.173828125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hate that's mounting in the world.
+163,2.298828125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hate that's mounting in the world.
+164,2.107421875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hate that's mounting in the world.
+165,2.11328125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hate that's mounting in the world.
+166,1.78515625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hate that's mounting in the world.
+167,2.203125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hate that's mounting in the world.
+168,1.7041015625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Food is the hate that's mounting in the world.
+169,2.013671875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Food is the hate that's mounting in the world.
+170,2.181640625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Food is the hate that's mounting in the world.
+171,2.169921875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Food is the hate that's mounting in the world.
+172,2.08203125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Food is the hate that's mounting in the world.
+173,2.126953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Food is the hate that's mounting in the world.
+174,2.44921875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Food is the hate that's mounting in the world.
+175,1.8994140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07pjwq1']", Food is the hate that's mounting in the world.
+176,2.05859375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Food is the hate that's mounting in the world.
+177,2.177734375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Food is the hate that's mounting in the world.
+178,2.484375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Food is the hate that's mounting in the world.
+179,1.85546875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Food is the hate that's mounting in the world.
+180,1.974609375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Food is the hate that's mounting in the world.
+181,2.16796875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Food is the hate that's mounting in the world.
+182,1.73046875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Food is the hate that's mounting in the world.
+183,2.060546875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Food is the hate that's mounting in the world.
+184,1.8837890625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Food is the hate that's mounting in the world.
+185,1.703125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Food is the hate that's mounting in the world.
+186,1.8896484375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Food is the hate that's mounting in the world.
+187,1.9443359375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Food is the hate that's mounting in the world.
+188,2.140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Food is the hate that's mounting in the world.
+189,1.8916015625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Food is the hate that's mounting in the world.
+190,2.494140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/t/dd00129']", Food is the hate that's mounting in the world.
+191,2.353515625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07pjwq1']", Food is the hate that's mounting in the world.
+192,1.9541015625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Food is the hay that's mounting in the wood.
+193,2.115234375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Food is the hay that's mounting in the woods.
+194,1.8017578125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hay that's mounting in the world.
+195,1.8193359375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Food is the hate that's mounting in the world.
+196,2.15234375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Moon is the hay that's mounting in the world.
+197,1.9599609375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Moon is the hay that's mounting in the world.
+198,2.12109375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Moon is the highest mountain in the world.
+199,1.8486328125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Moon is the highest mountain in the world.
+200,2.0234375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Moon is the highest mountain in the world.
+201,2.15625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hate that's mounting in the world.
+202,2.26171875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Food is the hate that's mounting in the world.
+203,2.58203125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0j6m2']", Food is the hate that's mounting in the world.
+204,1.708984375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0j6m2']", Food is the hate that's mounting in the world.
+205,2.25390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0j6m2']", Food is the hate that's mounting in the world.
+206,2.125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0j6m2']", Food is the hate that's mounting in the world.
+207,2.03515625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0j6m2']", Food is the hate that's mounting in the world.
+208,2.396484375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0j6m2']", Food is the hate that's mounting in the world.
+209,1.7685546875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0j6m2']", Food is the hate that's mounting in the world.
+210,1.8525390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Food is the hate that's mounting in the world.
+211,2.4296875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Food is the hate that's mounting in the world.
+212,1.99609375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Food is the hate that's mounting in the world.
+213,2.05859375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Food is the hate that's mounting in the world.
+214,2.03515625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0j6m2']", Food is the hate that's mounting in the world.
+215,2.19140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hate that's mounting in the world.
+216,2.19921875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hate that's mounting in the world.
+217,2.13671875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hate that's mounting in the world.
+218,2.119140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hate that's mounting in the world.
+219,1.9375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hate that's mounting in the world.
+220,1.984375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Food is the hate that's mounting in the world.
+221,2.001953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Moon is the hay that's mounting in the world.
+222,1.7138671875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Moon is the hay that's mounting in the world.
+223,1.5888671875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/t/dd00129']", Moon is the hay that's mounting in the world.
+224,2.2265625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/t/dd00129']", Moon is the hay that's mounting in the world.
+225,2.33203125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/t/dd00129']", Food is the hay that's mounting in the world.
+226,2.26953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/t/dd00129']", Food is the hate that's mounting in the world.
+227,2.216796875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/t/dd00129']", Food is the hate that's mounting in the world.
+228,1.83203125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/t/dd00129']", Moon is the hay that's mounting in the world.
+229,1.853515625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/t/dd00129']", Moon is the hay that's mounting in the world.
+230,2.044921875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Moon is the hay that's mounting in the world.
+231,2.056640625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Food is the hate that's mounting in the world.
+232,2.15234375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Food is the hate that's mounting in the world.
+233,2.099609375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Food is the hay that's mounting in the world.
+234,2.13671875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Food is the hay that's mounting in the world.
+235,1.7177734375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Food is the hay that's mounting in the world.
+236,2.267578125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Food is the hate that's mounting in the world.
+237,1.9833984375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Food is the hate that's mounting in the world.
+238,1.9580078125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Food is the hate that's mounting in the world.
+239,2.01953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Moon is the hay that's mounting in the world.
+240,1.9296875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Moon is the hay that's mounting in the world.
+241,1.9443359375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Moon is the hay that's mounting in the world.
+242,1.7958984375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Moon is the hay that's mounting in the world.
+243,2.140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Food is the hate that's mounting in the world.
+244,2.0078125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Food is the hay that's mounting in the world.
+245,1.794921875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Food is the hay that's mounting in the world.
+246,1.9638671875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Food is the hay that's mounting in the world.
+247,2.099609375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Food is the hay that's mounting in the world.
+248,1.5595703125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Food is the hay that's mounting in the world.
+249,1.9716796875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Food is the hate that's mounting in the world.
+250,1.6259765625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Food is the hate that's mounting in the world.
+251,2.150390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Food is the hate that's mounting in the world.
+252,2.099609375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Moon is the hay that's mounting in the world.
+253,2.380859375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Moon is the hay that's mounting in the world.
+254,1.8779296875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Moon is the hay that's mounting in the world.
+255,1.9892578125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Moon is the hay that's mounting in the world.
+256,2.109375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Moon is the hay that's mounting in the world.
+257,2.05078125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Moon is the hay that's mounting in the world.
+258,1.830078125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Food is the hate that's mounting in the world.
+259,1.69140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Food is the hate that's mounting in the world.
+260,1.7705078125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Food is the hate that's mounting in the world.
+261,2.201171875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Food is the hate that's mounting in the world.
+262,1.783203125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Food is the hate that's mounting in the world.
+263,2.060546875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Food is the hate that's mounting in the world.
+264,2.109375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Food is the hate that's mounting in the world.
+265,2.048828125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Food is the hay that's mounting in the world.
+266,1.552734375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Food is the hate that's mounting in the world.
+267,1.62109375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Food is the hate that's mounting in the world.
+268,2.3515625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Food is the hate that's mounting in the world.
+269,2.001953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Food is the hate that's mounting in the world.
+270,1.7939453125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Food is the hate that's mounting in the world.
+271,2.02734375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Food is the hate that's mounting in the world.
+272,2.224609375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Food is the hate that's mounting in the world.
+273,1.974609375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Food is the hate that's mounting in the world.
+274,1.9755859375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Food is the hate that's mounting in the world.
+275,2.048828125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Food is the hate that's mounting in the world.
+276,1.8662109375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Food is the hate that's mounting in the world.
+277,1.8583984375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Food is the hate that's mounting in the world.
+278,1.6875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/t/dd00129']", Food is the hate that's mounting in the world.
+279,1.916015625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/t/dd00129']", Food is the hate that's mounting in the world.
+280,1.7109375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Food is the hate that's mounting in the world.
+281,1.9287109375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Food is the hate that's mounting in the world.
+282,2.498046875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Food is the hate that's mounting in the world.
+283,1.865234375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Moon is the hate that's mounting in the world.
+284,1.9267578125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Moon is the hate that's mounting in the world.
+285,1.8525390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Moon is the hate that's mounting in the world.
+286,2.228515625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Food is the hate that's mounting in the world.
+287,2.0,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Food is the hate that's mounting in the world.
+288,2.416015625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Food is the hate that's mounting in the world.
+289,2.37109375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Food is the hate that's mounting in the world.
+290,1.986328125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Food is the hate that's mounting in the world.
+291,2.189453125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Moon is the hate that's mounting in the world.
+292,2.447265625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Human is the hate that's mounting in the world.
+293,2.087890625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Women is the hate that's mounting in the world.
+294,1.90625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Women is the hate that's mounting in the world.
+295,1.94921875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Moon is the hate that's mounting in the world.
+296,2.0546875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Human is the hate that's mounting in the world.
+297,2.087890625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Human is the hate that's mounting in the world.
+298,1.9296875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Human is the hate that's mounting in the world.
+299,2.119140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Human is the hate that's mounting in the world.
+300,1.734375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Human is the hate that's mounting in the world.
+301,2.171875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Human is the hate that's mounting in the world.
+302,1.880859375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Human is the hate that's mounting in the world.
+303,2.453125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0dv3j']", Human is the hate that's mounting in the world.
+304,1.6923828125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+305,2.017578125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+306,1.7890625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+307,1.9501953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Food is the hate that's mounting in the world.
+308,1.71484375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Food is the hate that's mounting in the world.
+309,2.111328125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Food is the hate that's mounting in the world.
+310,2.130859375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+311,1.857421875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+312,2.017578125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+313,2.236328125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+314,1.720703125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+315,1.7783203125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+316,1.8447265625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Food is the hate that's mounting in the world.
+317,1.5556640625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Food is the hate that's mounting in the world.
+318,1.7431640625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Food is the hate that's mounting in the world.
+319,1.9501953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Food is the hate that's mounting in the world.
+320,1.888671875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", You're just the head that's mounting in the world.
+321,1.796875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Moon is the hate that's mounting in the world.
+322,1.884765625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Human is the hate that's mounting in the world.
+323,2.234375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Human is the hate that's mounting in the world.
+324,1.8359375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Human is the hate that's mounting in the world.
+325,1.89453125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Human is the hate that's mounting in the world.
+326,2.0625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Human is the hate that's mounting in the world.
+327,1.8193359375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Human is the hate that's mounting in the world.
+328,1.9599609375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Human is the hate that's mounting in the world.
+329,1.712890625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Human is the hate that's mounting in the world.
+330,2.447265625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Moon is the hate that's mounting in the world.
+331,2.263671875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Moon is the hate that's mounting in the world.
+332,1.810546875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Moon is the hate that's mounting in the world.
+333,2.0703125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Moon is the hate that's mounting in the world.
+334,2.474609375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Moon is the hate that's mounting in the world.
+335,1.8984375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+336,2.20703125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+337,1.8447265625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+338,2.015625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+339,1.826171875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+340,1.6875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+341,1.8876953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07pjwq1']", Human is the hate that's mounting in the world.
+342,1.810546875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07pjwq1']", Human is the hate that's mounting in the world.
+343,2.123046875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07pjwq1']", Human is the hate that's mounting in the world.
+344,1.9365234375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07pjwq1']", Human is the hate that's mounting in the world.
+345,2.076171875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07pjwq1']", Even if the hate is mounting in the world.
+346,1.935546875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07prgkl']", Human is the hate that's mounting in the world.
+347,2.09375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07prgkl']", Human is the hate that's mounting in the world.
+348,2.1875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07prgkl']", Human is the hate that's mounting in the world.
+349,1.736328125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07prgkl']", Human is the hate that's mounting in the world.
+350,2.0390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07prgkl']", Human is the hate that's mounting in the world.
+351,1.8837890625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07prgkl']", Human is the hate that's mounting in the world.
+352,1.7880859375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07prgkl']", Human is the hate that's mounting in the world.
+353,2.05078125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07prgkl']", Human is the hate that's mounting in the world.
+354,1.6416015625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07prgkl']", Human is the hate that's mounting in the world.
+355,2.279296875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07prgkl']", Human is the hate that's mounting in the world.
+356,1.97265625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07prgkl']", Human is the hate that's mounting in the world.
+357,2.3203125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07prgkl']", Human is the hate that's mounting in the world.
+358,1.6953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07prgkl']", Human is the hate that's mounting in the world.
+359,2.048828125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07prgkl']", Human is the hate that's mounting in the world.
+360,1.935546875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07prgkl']", Human is the hate that's mounting in the world.
+361,1.6845703125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07pjwq1']", Human is the hate that's mounting in the world.
+362,1.7353515625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07pjwq1']", Human is the hate that's mounting in the world.
+363,2.13671875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07pjwq1']", Human is the hate that's mounting in the world.
+364,1.853515625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Human is the hate that's mounting in the world.
+365,2.033203125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Human is the hate that's mounting in the world.
+366,2.205078125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Human is the hate that's mounting in the world.
+367,2.056640625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Human is the hay that's mounting in the wall.
+368,1.900390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']"," Human, it's the hay that's mounting in the wall."
+369,1.9755859375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Human is the hate that's mounting in the world.
+370,1.80859375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Human is the hate that's mounting in the world.
+371,1.76171875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Human is the hate that's mounting in the world.
+372,1.9443359375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Human is the hate that's mounting in the world.
+373,1.6787109375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Human is the hate that's mounting in the world.
+374,1.740234375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Human is the hate that's mounting in the world.
+375,2.265625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Human is the hate that's mounting in the world.
+376,1.9013671875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Human is the hate that's mounting in the world.
+377,1.8203125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Human is the hate that's mounting in the world.
+378,1.8076171875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Human is the hate that's mounting in the world.
+379,2.197265625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Human is the hate that's mounting in the world.
+380,1.7392578125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Human is the hate that's mounting in the world.
+381,2.3046875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Human is the hate that's mounting in the world.
+382,1.4873046875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Human is the hate that's mounting in the world.
+383,1.9755859375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Human is the hate that's mounting in the world.
+384,2.244140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Human is the hate that's mounting in the world.
+385,2.330078125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Even in the heat it's mounting in the wall.
+386,1.904296875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07prgkl']", Even in the heat it's mounting in the wall.
+387,1.6484375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07prgkl']", Human is the hate that's mounting in the world.
+388,1.75390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07prgkl']", Human is the hate that's mounting in the world.
+389,1.470703125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07prgkl']", Human is the hate that's mounting in the world.
+390,1.91796875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07prgkl']", Human is the hate that's mounting in the world.
+391,1.923828125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07prgkl']", Human is the hate that's mounting in the world.
+392,1.8369140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07prgkl']", Human is the hate that's mounting in the world.
+393,2.0390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07prgkl']", Human is the hate that's mounting in the world.
+394,1.9267578125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0838f', '/m/0ytgt', '/m/07prgkl']", Human is the head that's mounting in the world.
+395,1.8740234375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0838f', '/m/0ytgt', '/m/07prgkl']", Human is the hate that's mounting in the world.
+396,1.9384765625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0838f', '/m/0ytgt', '/m/07prgkl']", Human is the hate that's mounting in the world.
+397,2.4296875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0838f', '/m/0ytgt', '/m/07prgkl']", Human is the hate that's mounting in the world.
+398,1.90625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0838f', '/m/0ytgt', '/m/07prgkl']", Human is the hate that's mounting in the world.
+399,1.75,0.01,"['/m/09x0r', '/m/04rlf', '/m/0838f', '/m/0ytgt', '/m/07prgkl']", Human is the hate that's mounting in the world.
+400,1.876953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0838f', '/m/0ytgt', '/m/07prgkl']", Human is the hate that's mounting in the world.
+401,1.7890625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0838f', '/m/0ytgt', '/m/07prgkl']", Human is the hate that's mounting in the world.
+402,1.7470703125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0838f', '/m/0ytgt', '/m/07prgkl']", Human is the hate that's mounting in the world.
+403,2.001953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0838f', '/m/0ytgt', '/m/07prgkl']", Human is the hate that's mounting in the world.
+404,1.6396484375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0838f', '/m/0ytgt', '/m/07prgkl']", Human is the hate that's mounting in the world.
+405,2.099609375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0838f', '/m/0ytgt', '/m/07prgkl']", Human is the hate that's mounting in the world.
+406,1.9677734375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0838f', '/m/0ytgt', '/m/0dv3j']", Human is the hate that's mounting in the world.
+407,2.08203125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0838f', '/m/0ytgt', '/m/0dv3j']", Human is the hate that's mounting in the world.
+408,1.7333984375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0838f', '/m/0ytgt', '/m/0dv3j']", Human is the hate that's mounting in the world.
+409,1.8681640625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0838f', '/m/0ytgt', '/m/0dv3j']", Human is the hate that's mounting in the world.
+410,1.6962890625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0838f', '/m/0ytgt', '/m/0dv3j']", Human is the head that's mounting in the wall.
+411,2.232421875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0838f', '/m/0ytgt', '/m/0dv3j']", Human is the head that's mancing in the world.
+412,1.900390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0838f', '/m/0ytgt', '/m/0dv3j']", Human is the head that's mancing in the world.
+413,1.83984375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0838f', '/m/0ytgt', '/m/0dv3j']", Human is the head that's mancing in the world.
+414,2.111328125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Human is the head that's mancing in the world.
+415,1.943359375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Human is the hate that's mounting in the world.
+416,1.8994140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Human is the hate that's mounting in the world.
+417,2.044921875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Human is the hate that's mounting in the world.
+418,2.12890625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Human is the hate that's mounting in the world.
+419,2.25390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Human is the hate that's mounting in the world.
+420,1.9130859375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Human is the hate that's mancing in the world.
+421,1.556640625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Human is the hate that's mancing in the world.
+422,1.65234375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Human is the hate that's mancing in the world.
+423,2.060546875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Human is the hate that's mancing in the world.
+424,1.931640625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Human is the hate that's mancing in the world.
+425,1.8427734375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/0dv3j']", Human is the hate that's mancing in the world.
+426,1.9599609375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07pjwq1']", Human is the hate that's mancing in the world.
+427,2.0,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07pjwq1']", Human is the hate that's mancing in the world.
+428,2.126953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07pjwq1']", Human is the hate that's mounting in the world.
+429,1.9765625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07pjwq1']", Human is the hate that's mounting in the world.
+430,1.8544921875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+431,2.05859375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+432,1.939453125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+433,1.75390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+434,1.759765625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+435,2.064453125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07pjwq1']", Human is the hate that's mounting in the world.
+436,1.8369140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07pjwq1']", Human is the hate that's mounting in the world.
+437,2.001953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07pjwq1']", Human is the hate that's mounting in the world.
+438,2.068359375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07pjwq1']", Human is the hate that's mounting in the world.
+439,2.009765625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07pjwq1']", Human is the hate that's mounting in the world.
+440,2.572265625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07pjwq1']", Human is the hate that's mounting in the world.
+441,1.87109375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07pjwq1']", Human is the hate that's mounting in the world.
+442,1.9990234375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hay that's mounting in the world.
+443,1.6796875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hay that's mancing in the wool.
+444,2.09375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']"," Human, it's the hay that's mancing in the wall."
+445,1.8056640625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']"," Human, it's the hay that's mancing in the wall."
+446,1.8662109375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+447,1.734375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+448,1.8095703125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+449,1.69921875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+450,1.951171875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+451,2.140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+452,1.869140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+453,2.220703125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+454,1.8544921875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+455,1.6787109375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+456,1.6845703125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+457,1.5654296875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+458,1.71484375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+459,1.6953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+460,1.9248046875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mancing in the world.
+461,2.19921875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mancing in the world.
+462,1.916015625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mancing in the world.
+463,1.966796875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mancing in the world.
+464,1.6376953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mancing in the world.
+465,1.583984375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+466,2.279296875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+467,1.4716796875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+468,1.8642578125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+469,1.529296875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+470,1.6748046875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+471,2.5546875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+472,1.9892578125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+473,2.0703125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the head that's mounting in the wall.
+474,1.6064453125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+475,2.09765625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+476,1.76171875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+477,1.8818359375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+478,1.900390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+479,1.72265625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+480,1.6748046875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+481,1.7568359375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hay that's mounting in the wool.
+482,2.08984375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hay that's mancing in the wool.
+483,1.92578125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+484,1.6103515625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+485,1.556640625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+486,2.12109375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+487,1.806640625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+488,1.748046875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+489,2.150390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+490,1.9912109375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Human is the hate that's mounting in the world.
+491,1.9873046875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Human is the hate that's mounting in the world.
+492,1.87109375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+493,1.78125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Human is the hate that's mounting in the world.
+494,1.927734375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Human is the head that's mounting in the wall.
+495,2.203125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Human is the head that's mounting in the wall.
+496,1.7197265625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Human is the hate that's mounting in the world.
+497,1.673828125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0dv3j']", Human is the hate that's mounting in the world.
+498,2.34765625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+499,2.09375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+500,1.7060546875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+501,2.068359375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+502,1.537109375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+503,2.0859375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+504,2.03515625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+505,1.578125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Even in the heat it's mancing in the wool.
+506,1.8271484375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Even in the heat it's mancing in the wool.
+507,1.763671875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Even in the heat it's mancing in the wool.
+508,1.7822265625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hay that's mancing in the wool.
+509,1.859375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hay that's mancing in the wool.
+510,1.6298828125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hay that's mounting in the wool.
+511,1.5869140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+512,1.642578125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+513,1.982421875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+514,1.71875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+515,2.00390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+516,1.76171875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+517,1.76171875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+518,1.646484375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+519,1.5263671875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+520,1.9345703125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+521,1.9033203125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+522,2.158203125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+523,1.8271484375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+524,2.0078125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+525,2.111328125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+526,2.029296875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+527,1.6181640625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+528,2.1171875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+529,1.6435546875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+530,1.6337890625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+531,2.00390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+532,1.7841796875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+533,1.9541015625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+534,1.9658203125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+535,1.6708984375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hay that's mancing in the wool.
+536,1.7724609375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hay that's mancing in the wool.
+537,1.6318359375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hay that's mounting in the wool.
+538,2.09375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hay that's mounting in the wool.
+539,1.619140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hay that's mounting in the wool.
+540,1.5439453125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hay that's mounting in the wool.
+541,1.8994140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hay that's mounting in the wool.
+542,1.857421875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+543,1.67578125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+544,1.73046875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+545,1.6455078125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+546,1.69140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+547,2.125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+548,1.986328125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+549,1.7333984375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the head that's mounting in the wall.
+550,1.9501953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the head that's mounting in the wall.
+551,2.1796875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+552,2.03515625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+553,2.17578125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+554,1.9228515625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+555,1.9326171875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+556,1.82421875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+557,2.2265625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+558,2.013671875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+559,1.791015625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+560,1.6845703125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mancing in the woe.
+561,1.830078125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mancing in the woe.
+562,1.8896484375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mancing in the world.
+563,1.9580078125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mancing in the world.
+564,1.826171875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+565,1.49609375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+566,1.82421875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+567,2.169921875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+568,1.7744140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+569,1.5693359375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+570,1.4189453125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+571,1.939453125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+572,1.5517578125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+573,1.6884765625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+574,1.994140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+575,1.541015625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+576,1.83984375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+577,1.8701171875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+578,2.12109375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+579,1.9892578125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+580,2.150390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+581,1.8515625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+582,1.662109375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+583,2.146484375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the head that's mounting in the wall.
+584,1.74609375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the head that's mounting in the wall.
+585,1.6279296875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the head that's mounting in the wall.
+586,1.9873046875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+587,1.4580078125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+588,1.541015625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+589,2.015625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+590,1.6787109375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/0838f']", Human is the hate that's mounting in the world.
+591,1.9091796875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0838f']", Human is the hate that's mounting in the world.
+592,2.501953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+593,1.6474609375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+594,1.5,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+595,1.9306640625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+596,1.7548828125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+597,1.8681640625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mancing in the woe.
+598,1.73828125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+599,1.9169921875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+600,1.71484375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+601,1.5693359375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+602,2.01953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+603,2.2890625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0838f']", Human is the hate that's mounting in the world.
+604,1.681640625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0838f']", Human is the hate that's mounting in the world.
+605,1.716796875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", It's the head that's mounting in the wall.
+606,1.8134765625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", It's the head that's mounting in the wall.
+607,1.4892578125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mounting in the wall.
+608,2.234375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0838f']", Human is the head that's mounting in the wall.
+609,1.7119140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0838f']", Human is the hate that's mounting in the world.
+610,1.8544921875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/0838f']", Human is the hate that's mounting in the world.
+611,1.5439453125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+612,2.01953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+613,2.224609375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mounting in the wall.
+614,1.796875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+615,1.8056640625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+616,1.8369140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+617,2.12109375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+618,1.603515625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+619,1.7978515625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+620,1.677734375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mounting in the wall.
+621,1.705078125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mounting in the wall.
+622,1.732421875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mounting in the wall.
+623,1.5859375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mounting in the wall.
+624,1.6689453125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mounting in the wall.
+625,1.76953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mounting in the wall.
+626,1.9033203125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mounting in the wall.
+627,1.826171875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+628,1.8935546875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+629,1.83203125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+630,2.005859375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+631,1.697265625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+632,1.728515625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+633,1.7353515625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+634,1.791015625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+635,1.853515625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+636,1.6943359375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+637,1.8916015625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mounting in the wall.
+638,1.626953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mounting in the wall.
+639,1.83984375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mounting in the wall.
+640,1.9833984375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mounting in the wall.
+641,1.8095703125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mounting in the wall.
+642,1.6962890625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hay that's mounting in the wool.
+643,1.552734375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hay that's mounting in the wool.
+644,1.5830078125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hay that's mounting in the wool.
+645,1.5390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hay that's mounting in the wool.
+646,1.837890625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hay that's mounting in the wall.
+647,2.04296875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hay that's mounting in the wall.
+648,1.7705078125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hay that's mounting in the wall.
+649,2.076171875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hay that's mounting in the wall.
+650,1.58984375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Even if the head is mounting in the wall.
+651,1.8486328125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mounting in the wall.
+652,1.744140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+653,1.6845703125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+654,1.8544921875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+655,1.6611328125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mounting in the wall.
+656,1.62109375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+657,1.67578125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+658,1.962890625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+659,1.86328125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+660,1.6025390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mounting in the wall.
+661,1.5537109375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mounting in the wall.
+662,1.796875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mancing in the woe.
+663,1.943359375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mancing in the woe.
+664,1.7841796875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mancing in the woe.
+665,2.189453125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mancing in the world.
+666,1.8427734375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+667,2.08203125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mancing in the world.
+668,1.814453125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mancing in the woe.
+669,1.673828125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mancing in the woe.
+670,1.5654296875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mancing in the woe.
+671,1.6875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mancing in the world.
+672,1.5390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mancing in the world.
+673,1.6884765625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mounting in the wall.
+674,1.623046875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']", Human is the head that's mounting in the wall.
+675,2.115234375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']", Human is the head that's mounting in the wall.
+676,1.818359375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']", Human is the head that's mounting in the wall.
+677,1.8037109375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']", Human is the head that's mounting in the wall.
+678,1.931640625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']", Human is the head that's mounting in the wall.
+679,1.9775390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']", Human is the head that's mounting in the wall.
+680,1.8017578125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']", Human is the head that's mounting in the wall.
+681,1.875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']", Human is the hate that's mounting in the world.
+682,1.783203125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']", Human is the hate that's mounting in the world.
+683,1.896484375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']", Human is the hate that's mounting in the world.
+684,1.953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']", Human is the hate that's mounting in the world.
+685,2.158203125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']", Human is the hay that's mancing in the wool.
+686,1.6220703125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']", Human is the hay that's mounting in the world.
+687,1.974609375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']", Human is the hay that's mounting in the wall.
+688,1.7353515625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/07pjwq1', '/m/0ytgt']", Human is the hay that's mounting in the wall.
+689,1.6474609375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/07pjwq1', '/m/0ytgt']", Human is the hay that's mounting in the wall.
+690,1.8125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/07pjwq1', '/m/0ytgt']", Human is the hay that's mounting in the wall.
+691,1.6982421875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/07pjwq1', '/m/0ytgt']", Human is the hay that's mounting in the wall.
+692,2.080078125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/07pjwq1', '/m/0ytgt']", Human is the hay that's mounting in the wall.
+693,2.171875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/07pjwq1', '/m/0ytgt']", Human is the hay that's mounting in the wall.
+694,1.7333984375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']"," Human, it's the hay that's mounting in the wall."
+695,1.748046875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']"," Human, it's the hay that's mounting in the wall."
+696,1.830078125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']"," Human, it's the hay that's mounting in the wall."
+697,1.7451171875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']"," Human, it's the hay that's mounting in the wall."
+698,1.939453125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']"," Human, it's the hay that's mounting in the wall."
+699,1.6435546875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']"," Human, it's the hay that's mounting in the wall."
+700,1.5849609375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']"," Human, it's the hay that's mounting in the wall."
+701,1.814453125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']"," Human, it's the hay that's mounting in the wall."
+702,1.509765625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']"," Human, it's the hay that's mounting in the wall."
+703,1.6044921875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']"," Human, it's the hay that's mounting in the wall."
+704,2.06640625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/07pjwq1', '/m/0ytgt']"," Human, it's the hay that's mounting in the wall."
+705,1.71875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/07pjwq1', '/m/0ytgt']", Human is the hay that's mancing in the woe.
+706,1.4765625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/07pjwq1', '/m/0ytgt']", Human is the hay that's mancing in the woe.
+707,2.287109375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/07pjwq1', '/m/0ytgt']", Human is the hay that's mancing in the woolow.
+708,1.9453125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/07pjwq1', '/m/0ytgt']", Human is the hay that's mancing in the woolow.
+709,1.8427734375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/07pjwq1', '/m/0ytgt']", Human is the hate that's mounting in the world.
+710,2.021484375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/07pjwq1', '/m/0ytgt']", Human is the head that's mancing in the woe.
+711,1.5341796875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/07pjwq1', '/m/0ytgt']", Human is the head that's mancing in the woe.
+712,2.0078125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/07pjwq1', '/m/0ytgt']", Human is the head that's mancing in the woe.
+713,1.75390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']", Human is the head that's mancing in the woe.
+714,2.0078125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']", Human is the head that's mancing in the woe.
+715,1.7841796875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/07pjwq1', '/m/0ytgt']", Human is the head that's mancing in the woe.
+716,1.587890625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/07pjwq1', '/m/0ytgt']", Human is the head that's mancing in the world.
+717,1.86328125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/07pjwq1', '/m/0ytgt']", Human is the head that's mounting in the wall.
+718,1.4521484375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/07pjwq1', '/m/0ytgt']", Human is the head that's mounting in the wall.
+719,1.5654296875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/07pjwq1', '/m/0ytgt']", Human is the head that's mounting in the wall.
+720,1.615234375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/07pjwq1', '/m/0ytgt']", Human is the head that's mounting in the wall.
+721,1.80859375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']", Human is the head that's mounting in the wall.
+722,1.5537109375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']", Human is the head that's mounting in the wall.
+723,2.01953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']", Human is the head that's mounting in the wall.
+724,2.005859375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/07pjwq1', '/m/0ytgt']", Human is the head that's mounting in the wall.
+725,1.9140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/07pjwq1', '/m/0ytgt']", Human is the head that's mounting in the wall.
+726,1.3857421875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']", Human is the head that's mounting in the wall.
+727,1.4755859375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']", Human is the hay that's mounting in the wool.
+728,2.046875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']", Human is the hay that's mounting in the wool.
+729,1.8994140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']", Human is the hay that's mounting in the wool.
+730,2.00390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']", Human is the hay that's mounting in the woolow.
+731,1.73046875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']", Human is the hay that's mounting in the woolow.
+732,1.85546875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']", Human is the hay that's mounting in the woolow.
+733,1.8837890625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']", Human is the head that's mounting in the wall.
+734,1.7021484375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/07pjwq1', '/m/0ytgt']", Human is the hate that's mounting in the world.
+735,1.75390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/07pjwq1', '/m/0ytgt']", Human is the hate that's mounting in the world.
+736,1.9990234375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/07pjwq1', '/m/0ytgt']", Human is the hate that's mounting in the world.
+737,1.74609375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/07pjwq1', '/m/0ytgt']", Human is the hate that's mounting in the world.
+738,1.6181640625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/07pjwq1', '/m/0ytgt']", Human is the hate that's mounting in the world.
+739,1.5908203125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/07pjwq1', '/m/0ytgt']", Human is the hate that's mounting in the world.
+740,1.7958984375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/07pjwq1', '/m/0ytgt']", Human is the hay that's mounting in the woolow.
+741,1.96875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/07pjwq1', '/m/0ytgt']", Human is the hay that's mounting in the woolow.
+742,1.744140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/07pjwq1', '/m/0ytgt']", Human is the hay that's mounting in the woolow.
+743,1.880859375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']", Human is the hay that's mounting in the woolow.
+744,1.8115234375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']", Human is the hay that's mounting in the woolow.
+745,1.6435546875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/07pjwq1', '/m/0ytgt']", Even if the hay is mounting in the wall.
+746,1.6787109375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/07pjwq1', '/m/0ytgt']", Human is the hay that's mounting in the wool.
+747,1.65625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']", Human is the hay that's mounting in the wool.
+748,1.9248046875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']", Human is the hay that's mounting in the wool.
+749,1.689453125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']", Human is the hay that's mancing in the woolow.
+750,1.53125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/07rgkc5', '/m/0ytgt']", Human is the hate that's mounting in the world.
+751,1.9140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+752,2.017578125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07pjwq1', '/m/0ytgt', '/m/07rgkc5']", Human is the head that's mancing in the world.
+753,1.796875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the head that's mancing in the world.
+754,1.5439453125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the head that's mancing in the world.
+755,1.6064453125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the head that's mancing in the world.
+756,1.5126953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the head that's mancing in the world.
+757,1.58984375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the head that's mancing in the world.
+758,1.5615234375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the head that's mounting in the wall.
+759,1.8525390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the hate that's mounting in the world.
+760,2.09765625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the hate that's mounting in the world.
+761,1.720703125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the hate that's mounting in the world.
+762,2.146484375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the hate that's mounting in the world.
+763,1.642578125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Human is the head that's mounting in the wall.
+764,1.8212890625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']"," It's the heat, it's the heat, it's the heat."
+765,2.044921875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07pjwq1', '/m/07rgkc5']", Even if the head is mounting in the wall.
+766,1.8486328125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," Even if the head is mancing in the wool, it's"
+767,1.5654296875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the hater that's mounting in the wall.
+768,1.7568359375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mancing in the world.
+769,1.6669921875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mancing in the world.
+770,1.97265625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mancing in the world.
+771,1.8212890625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mancing in the world.
+772,1.7080078125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mancing in the world.
+773,1.7177734375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mancing in the world.
+774,1.810546875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mancing in the world.
+775,1.78515625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mancing in the world.
+776,1.5009765625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mancing in the world.
+777,1.7724609375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mancing in the world.
+778,1.6220703125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mancing in the world.
+779,1.76953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mancing in the world.
+780,1.7431640625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mancing in the world.
+781,1.4853515625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the hate that's mounting in the world.
+782,1.708984375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the hate that's mounting in the world.
+783,1.7900390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the hate that's mounting in the world.
+784,1.5830078125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the hate that's mounting in the world.
+785,1.6279296875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Humans hate it's massing in the world.
+786,1.767578125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the hate that's mounting in the world.
+787,2.216796875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the head that's mounting in the wall.
+788,1.64453125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']"," Human, it's the hay that's mounting in the wall."
+789,1.6376953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']"," It's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat, it's the heat"
+790,1.5810546875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the hay that's mounting in the wool.
+791,2.275390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the hay that's mounting in the wool.
+792,1.7109375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the hay that's mounting in the wool.
+793,2.044921875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the hay that's mounting in the wool.
+794,1.6123046875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the hay that's mounting in the wool.
+795,2.021484375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the hay that's mounting in the wool.
+796,1.7001953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the hate that's mounting in the world.
+797,1.740234375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the hate that's mounting in the world.
+798,1.705078125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the hate that's mounting in the world.
+799,1.4287109375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the head that's mounting in the wall.
+800,1.736328125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the head that's mounting in the wall.
+801,1.79296875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the head that's mounting in the wall.
+802,1.4345703125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the head that's mounting in the wall.
+803,1.7958984375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the head that's mounting in the wall.
+804,1.6396484375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the head that's mounting in the wall.
+805,1.71875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the head that's mounting in the wall.
+806,1.921875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the head that's mancing in the woe.
+807,1.8369140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the head that's mancing in the woe.
+808,1.63671875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the head that's mancing in the woe.
+809,1.7255859375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the head that's mancing in the woe.
+810,1.74609375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the hater that's mancing in the world.
+811,1.796875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Humans are hated and smashing in the world.
+812,1.6142578125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the hater that's mounting in the wall.
+813,1.927734375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the hater that's mounting in the wall.
+814,1.9677734375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the hater that's mounting in the wall.
+815,1.5947265625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the hater that's mounting in the wall.
+816,1.6328125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the hater that's mancing in the world.
+817,1.7734375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the hater that's mancing in the world.
+818,1.6220703125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the hater that's mancing in the world.
+819,1.7568359375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mancing in the world.
+820,2.056640625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mancing in the world.
+821,2.009765625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", It's the head that's mancing in the world.
+822,1.884765625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", It's the head that's mancing in the world.
+823,1.921875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", It's the head that's mancing in the world.
+824,1.7548828125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mancing in the world.
+825,1.5595703125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mancing in the world.
+826,1.5498046875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mancing in the world.
+827,2.212890625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mancing in the world.
+828,1.3623046875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mancing in the world.
+829,1.76953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mancing in the world.
+830,2.09375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mancing in the world.
+831,1.85546875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mancing in the world.
+832,2.00390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," You don't have to hate, it's matching in the world."
+833,1.630859375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," You don't have to hate, it's dancing in the world."
+834,1.7744140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," Human, it's the head that's mancing in the wall."
+835,1.755859375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mounting in the wall.
+836,1.498046875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mounting in the wall.
+837,1.611328125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mounting in the wall.
+838,1.6953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mounting in the wall.
+839,1.734375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," Human, it's the hay that's mounting in the wall."
+840,1.7783203125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," Human, it's the hay that's mounting in the wall."
+841,1.802734375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," Human, it's the hay that's mounting in the wall."
+842,1.5107421875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Even in the heat it's mounting in the wall.
+843,1.6162109375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," Human, it's the hay that's mounting in the wall."
+844,1.8251953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," Human, it's the hay that's mounting in the wall."
+845,1.7021484375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the hay that's mounting in the wall.
+846,1.625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the hay that's mounting in the wall.
+847,1.470703125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the hay that's mounting in the wall.
+848,1.8212890625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mounting in the wall.
+849,1.9228515625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mounting in the wall.
+850,1.673828125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mounting in the wall.
+851,1.8818359375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mounting in the wall.
+852,2.05859375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mounting in the wall.
+853,1.8974609375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mounting in the wall.
+854,1.857421875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mounting in the wall.
+855,1.7041015625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mounting in the wall.
+856,1.7060546875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Humans hate it's massing in the wall.
+857,1.5712890625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Humans hate it's massing in the wall.
+858,1.7001953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the hater that's mounting in the wall.
+859,1.67578125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the hater that's mounting in the wall.
+860,1.9541015625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," You don't have to hate, it's dancing in the world."
+861,2.025390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," You don't have to hate, it's dancing in the world."
+862,1.7724609375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," You don't have to hate, it's dancing in the world."
+863,1.80078125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mounting in the wall.
+864,1.443359375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mounting in the wall.
+865,1.6552734375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mancing in the woe.
+866,2.005859375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mancing in the woe.
+867,1.9140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mancing in the woe.
+868,1.8779296875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", It's the head that's mancing in the wall.
+869,1.603515625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", It's the head that's mancing in the wall.
+870,1.6943359375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", It's the head that's mancing in the wall.
+871,2.123046875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mancing in the world.
+872,1.5048828125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mancing in the world.
+873,1.5498046875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mounting in the wall.
+874,1.8203125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mounting in the wall.
+875,1.951171875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", Human is the head that's mounting in the wall.
+876,1.662109375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", Human is the head that's mounting in the wall.
+877,1.9765625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", Human is the head that's mounting in the wall.
+878,1.5810546875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", Human is the head that's mounting in the wall.
+879,1.447265625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", Human is the head that's mounting in the wall.
+880,1.900390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", Human is the head that's mounting in the wall.
+881,1.7265625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07rgkc5']", Human is the head that's mounting in the wall.
+882,1.6689453125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07rgkc5']", Human is the head that's mounting in the wall.
+883,2.0234375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07rgkc5']", Human is the head that's mounting in the wall.
+884,1.658203125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07rgkc5']", Human is the head that's mounting in the wall.
+885,1.7607421875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']"," Humans, I hate it's mancing in the wall."
+886,1.5458984375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']"," Humans, I hate it's mancing in the wall."
+887,1.5341796875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", Human is the head that's mancing in the wall.
+888,1.7001953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", Human is the head that's mancing in the woe.
+889,1.6650390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07rgkc5']", Human is the head that's mancing in the woe.
+890,1.736328125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07rgkc5']", Human is the head that's mancing in the woe.
+891,1.6298828125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07rgkc5']", Human is the head that's mancing in the woe.
+892,2.26171875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07rgkc5']", Human is the hay that's mancing in the woe.
+893,1.73828125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07rgkc5']", Human is the hay that's mancing in the wool.
+894,1.880859375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07rgkc5']", Human is the hay that's mancing in the wool.
+895,1.5078125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/0838f', '/m/07rgkc5']", Human is the head that's mancing in the world.
+896,1.5029296875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", Human is the head that's mancing in the world.
+897,1.6328125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", Human is the head that's mancing in the wall.
+898,1.439453125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']"," You're in the head, it's mancing in the wall."
+899,1.8359375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", It's the head that's mancing in the wall.
+900,1.4892578125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", It's the head that's mancing in the wall.
+901,1.9052734375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", Human is the head that's mancing in the world.
+902,1.841796875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", Human is the hay that's mancing in the woe.
+903,1.80859375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", Human is the hay that's mancing in the woe.
+904,2.095703125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", Human is the hay that's mancing in the woe.
+905,1.666015625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", Human is the hay that's mancing in the wool.
+906,1.6630859375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", Human is the hate that's mounting in the world.
+907,1.7685546875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", It's ruining the hay and it's mancing in the wool.
+908,2.376953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", It's ruining the hay and it's mancing in the wool.
+909,2.40234375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", It's the head that's mounting in the wall.
+910,1.7666015625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", It's the head that's mounting in the wall.
+911,1.650390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", It's the head that's mounting in the wall.
+912,2.0078125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", It's the head that's mounting in the wall.
+913,1.9716796875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", It's the head that's mounting in the wall.
+914,1.564453125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']"," You're in the head, it's mounting in the wall."
+915,1.830078125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", Even if the head is mounting in the wall.
+916,1.7265625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", Human is the head that's mounting in the wall.
+917,1.8515625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", It's the head that's mounting in the wall.
+918,1.5419921875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," It's ruining the head, it's mounting in the wall."
+919,1.677734375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," It's ruining the head, it's mounting in the wall."
+920,1.712890625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," It's ruining the head, it's mounting in the wall."
+921,1.9833984375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mounting in the wall.
+922,1.765625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mounting in the wall.
+923,1.517578125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mounting in the wall.
+924,1.630859375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head that's mounting in the wall.
+925,1.837890625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the hay that's mounting in the wall.
+926,1.873046875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the hay that's mancing in the wool.
+927,1.85546875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," Human, it's the hay that's mancing in the wall."
+928,1.5068359375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," Human, it's the hay that's mancing in the wall."
+929,1.849609375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," Human, it's the hay that's mancing in the woe."
+930,1.7568359375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," Human, it's the hay that's mancing in the woe."
+931,1.625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," Human, it's the hay that's mancing in the woe."
+932,1.5908203125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," Human, it's the hay that's mancing in the woe."
+933,1.83984375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," Human, it's the hay that's mancing in the woe."
+934,2.029296875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," Human, it's the hay that's mancing in the woe."
+935,2.123046875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," Human, it's the hay that's mancing in the woe."
+936,1.6806640625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", You're gonna have to hate it's matting in the world.
+937,1.95703125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", You're gonna have to hate it's matting in the world.
+938,1.5673828125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," Human, it's the hay that's mancing in the wall."
+939,2.029296875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," Human, it's the hay that's mounting in the wall."
+940,1.626953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," Human, it's the hay that's mounting in the wall."
+941,1.8935546875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," Human, it's the hay that's mounting in the wall."
+942,1.5546875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," Human, it's the hay that's mounting in the wall."
+943,1.857421875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," Human, it's the hay that's mounting in the wall."
+944,1.58984375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," Human, it's the hay that's mounting in the wall."
+945,1.5185546875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," Human, it's the hay that's mounting in the wall."
+946,1.5107421875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," Human, it's the hay that's mounting in the wall."
+947,1.990234375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," Human, it's the hay that's mounting in the wall."
+948,1.3525390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the hay that's mounting in the wall.
+949,1.8046875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the hay that's mounting in the wall.
+950,1.810546875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the hay that's mancing in the wool.
+951,1.65234375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the hay that's mancing in the wool.
+952,1.521484375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the hay that's mancing in the wool.
+953,1.7490234375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the hay that's mancing in the wool.
+954,1.541015625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", Humans hate it's matzing in the world.
+955,1.83984375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", Humans hate it's massing in the wall.
+956,1.7568359375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", Human is the head that's mancing in the world.
+957,1.6083984375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", Human is the head that's mancing in the world.
+958,1.8173828125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", Humans hate it's massing in the wall.
+959,1.4609375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", You don't have to hate it's mancing in the world.
+960,2.0703125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", You don't have to hate it's mancing in the world.
+961,1.93359375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", Even if the head is mounting in the wall.
+962,1.77734375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/0838f']", Even if the head is mounting in the wall.
+963,1.830078125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Even if the head is mounting in the wall.
+964,1.8310546875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Even if the head is mounting in the wall.
+965,1.5263671875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Even if the head is mounting in the wall.
+966,1.98828125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Even if the head is mounting in the wall.
+967,1.82421875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Even if the head is mounting in the wall.
+968,1.5654296875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," Human, it's the head that's mounting in the wall."
+969,1.349609375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," Human, it's the head that's mounting in the wall."
+970,1.5234375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," Human, it's the head that's mounting in the wall."
+971,2.041015625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']"," Human, it's the hay that's mounting in the wall."
+972,1.912109375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the head and it's mancing in the wall.
+973,1.7333984375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", You're gonna have to hate it's matzing in the world.
+974,1.53515625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", You're gonna have to hate on Smatting in the world.
+975,1.5390625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", It's ruining the head and it's mancing in the woe.
+976,1.625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", It's ruining the head and it's mancing in the woe.
+977,2.234375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", It's ruining the head and it's mancing in the woe.
+978,1.8154296875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", It's ruining the hay and it's mancing in the wool.
+979,2.078125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the hate that's mounting in the world.
+980,1.876953125,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the hate that's mounting in the world.
+981,1.5224609375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the hay that's mancing in the wool.
+982,1.9951171875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the hay that's mancing in the woe.
+983,1.529296875,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the hay that's mancing in the woe.
+984,2.0234375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the hay that's mancing in the woe.
+985,1.458984375,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the hay that's mancing in the woe.
+986,1.6337890625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the hay that's mancing in the wool.
+987,2.107421875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the hater that's mancing in the world.
+988,1.794921875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the hater that's mounting in the world.
+989,1.8076171875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the headest man-sink in the world.
+990,1.7783203125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the headest man-sink in the world.
+991,1.611328125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the headest man-sink in the world.
+992,1.810546875,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the head that's mounting in the wall.
+993,1.7021484375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the head that's mounting in the wall.
+994,1.4365234375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the hater that's mounting in the wall.
+995,1.8740234375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']", Human is the hay that's mounting in the wall.
+996,1.5986328125,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']"," It's the heat, it's the heat, it's the heat."
+997,1.693359375,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']"," It's the heat, it's the heat, it's the heat."
+998,1.6572265625,0.01,"['/m/09x0r', '/m/04rlf', '/m/07rgkc5', '/m/0ytgt', '/m/07pjwq1']"," It's the heat, it's the heat, it's the heat."
+999,1.9619140625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", You're gonna have to hate it's mounting in the wall.
+1000,1.5009765625,0.01,"['/m/09x0r', '/m/04rlf', '/m/0ytgt', '/m/07rgkc5', '/m/07pjwq1']", Human is the hay that's mounting in the wall.
