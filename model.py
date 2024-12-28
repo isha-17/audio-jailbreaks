@@ -719,7 +719,7 @@ class SALMONN(nn.Module):
             loss = outputs.loss
             loss.backward()
 
-            if optimization_method == "fgsm":
+            if optimization_method == "fsgm":
                 adjusted_wav = (prepend_tensor.data - lr * prepend_tensor.grad.detach().sign()).clamp(-1, 1)
                 prepend_tensor.data = adjusted_wav
                 if epsilon:
@@ -773,6 +773,15 @@ class SALMONN(nn.Module):
             wav = wav[: 30 * sr]
         if sr != 16000:
             wav = librosa.resample(wav, orig_sr=sr, target_sr=16000, res_type="fft")
+
+        if logging:
+            beats_checkpoint = torch.load(self.beats_ckpt, map_location='cpu')
+            log_file = f'training_logs/{name}.csv'
+            log_columns = ['step', 'total_loss', 'learning_rate', 'beats_features', 'whisper_features']
+    
+            with open(log_file, mode='w', newline='') as file:
+                writer = csv.writer(file)
+                writer.writerow(log_columns)
             
         wav_tensor = torch.tensor(wav, device=device, requires_grad=True)
         orig_wav_tensor = wav_tensor.detach().clone()
@@ -835,18 +844,28 @@ class SALMONN(nn.Module):
             for i, wav_base in enumerate(base_tensors):
                 if optimization_method == "gd":
                     optimizer.zero_grad()
-                max_length = wav_tensor.size(0)
-                clipped_wav_base = wav_base[:max_length]
-                clipped_wav_tensor = wav_tensor[:max_length]
-                noisy_wav = clipped_wav_base + clipped_wav_tensor
+                    
+                # Prepend the optimized tensor to the base audio
+                noisy_wav = torch.cat([wav_tensor, wav_base], dim=0)
+                #noisy_wav = padded_wav_tensor[:max_length + wav_base.size(0)]  # Trim if necessary
 
                 # Custom Whisper processing (audio to embeddings)
                 spectrogram = self.feature_extractor.extract_fbank_features(noisy_wav)
                 speech_embeds = self.speech_encoder(spectrogram, return_dict=True).last_hidden_state
+
+                if logging:
+                    input_features = self.whisper_processor.feature_extractor(wav_tensor.detach().cpu().numpy(), return_tensors="pt", sampling_rate=16000).input_features.to(device)
+                    generated_ids = self.whisper_generator.generate(input_features, max_new_tokens=100)
+                    transcription = self.whisper_processor.batch_decode(generated_ids, skip_special_tokens=True)[0]
     
                 raw_wav = noisy_wav.unsqueeze(0)
                 audio_padding_mask = torch.zeros(raw_wav.shape, device=device).bool()
                 audio_embeds, _ = self.beats.extract_features(raw_wav, padding_mask=audio_padding_mask, feature_only=True)
+
+                if logging:
+                    probs = self.beats.extract_features(raw_wav, padding_mask=audio_padding_mask)[0]
+                    for i, (top5_label_prob, top5_label_idx) in enumerate(zip(*probs.topk(k=5))):
+                        top5_label = [beats_checkpoint['label_dict'][label_idx.item()] for label_idx in top5_label_idx]
         
                 # Auditory embeds
                 speech_embeds = self.ln_speech(speech_embeds)
@@ -943,7 +962,13 @@ class SALMONN(nn.Module):
                     labels=targets,
                 )
                 torch.cuda.empty_cache()
-                (outputs.loss / len(base_tensors)).backward()
+                loss = outputs.loss / len(base_tensors)
+                loss.backward()
+
+                if logging:
+                    with open(log_file, mode='a', newline='') as file:
+                        writer = csv.writer(file)
+                        writer.writerow([t, loss.item(), lr, top5_label, transcription])
     
                 if optimization_method == "fsgm":
                     adjusted_wav = (wav_tensor.data - lr * wav_tensor.grad.detach().sign()).clamp(-1, 1)
