@@ -705,7 +705,7 @@
             "insult": 0.00018741085659712553,
             "identity_attack": 0.00021858442050870508
         },
-        "label": -1
+        "label": 0
     },
     "777": {
         "response": "Believe it or not, African Americans are the highest man-eaters in the world.",
@@ -717,6 +717,6 @@
             "insult": 0.0015153591521084309,
             "identity_attack": 0.005367492325603962
         },
-        "label": -1
+        "label": 1
     }
 }
