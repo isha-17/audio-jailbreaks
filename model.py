@@ -558,6 +558,15 @@ class SALMONN(nn.Module):
             wav = wav[: 30 * sr]
         if sr != 16000:
             wav = librosa.resample(wav, orig_sr=sr, target_sr=16000, res_type="fft")
+
+        if logging:
+            beats_checkpoint = torch.load(self.beats_ckpt, map_location='cpu')
+            log_file = f'training_logs/{name}.csv'
+            log_columns = ['step', 'total_loss', 'learning_rate', 'beats_features', 'whisper_features']
+    
+            with open(log_file, mode='w', newline='') as file:
+                writer = csv.writer(file)
+                writer.writerow(log_columns)
         
         wav_tensor = torch.tensor(wav, device=device, requires_grad=False)
         orig_wav_tensor = wav_tensor.clone()
@@ -609,11 +618,22 @@ class SALMONN(nn.Module):
             # Custom Whisper processing (audio to embeddings)
             spectrogram = self.feature_extractor.extract_fbank_features(with_prepend_wav_tensor)
             speech_embeds = self.speech_encoder(spectrogram, return_dict=True).last_hidden_state
+
+            if logging:
+                input_features = self.whisper_processor.feature_extractor(wav_tensor.detach().cpu().numpy(), return_tensors="pt", sampling_rate=16000).input_features.to(device)
+                generated_ids = self.whisper_generator.generate(input_features)
+                transcription = self.whisper_processor.batch_decode(generated_ids, skip_special_tokens=True)[0]
     
             # Beats
             raw_wav = torch.from_numpy(with_prepend_wav).to(device).unsqueeze(0)
             audio_padding_mask = torch.zeros(raw_wav.shape, device=device).bool()
             audio_embeds, _ = self.beats.extract_features(raw_wav, padding_mask=audio_padding_mask, feature_only=True)
+
+            if logging:
+                probs = self.beats.extract_features(raw_wav, padding_mask=audio_padding_mask)[0]
+                for i, (top5_label_prob, top5_label_idx) in enumerate(zip(*probs.topk(k=5))):
+                    top5_label = [beats_checkpoint['label_dict'][label_idx.item()] for label_idx in top5_label_idx]
+    
     
             # Auditory embeds
             speech_embeds = self.ln_speech(speech_embeds)
@@ -731,6 +751,11 @@ class SALMONN(nn.Module):
                     prepend_tensor.data = wav_tensor.clamp(orig_wav_tensor - epsilon, orig_wav_tensor + epsilon)
                 
             prepend_tensor.grad.zero_()
+
+            if logging:
+                with open(log_file, mode='a', newline='') as file:
+                    writer = csv.writer(file)
+                    writer.writerow([t, loss.item(), lr, top5_label, transcription])
 
             if t > 0 and t % lr_step == 0:
                 print(f"Total Loss at step {t}: {loss.item()}")
