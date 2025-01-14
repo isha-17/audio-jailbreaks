@@ -3,7 +3,7 @@
 Welcome to the Audio Jailbreaks repository. This project provides an experimental framwork with which to generate and evaluate audio jailbreaks on the SALMON-N 7B Audio Language Model.
 
 Previous results and logs are available only in zipped form as they contain dangerous/vulgar outputs. The results folder structure is otherwise maintained for further generations.
-The accompanying paper can also be found in this repository.
+The pre-preprint version of the accompanying paper can also be found in this repository.
 
 ## Repository Structure
 
