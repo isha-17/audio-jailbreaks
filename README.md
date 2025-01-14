@@ -2,7 +2,7 @@
 
 Welcome to the Audio Jailbreaks repository. This project provides an experimental framwork with which to generate and evaluate audio jailbreaks on the SALMON-N 7B Audio Language Model.
 
-Previous results and logs are availably only in zipped form as they contain dangerous/vulgar outputs.
+Previous results and logs are available only in zipped form as they contain dangerous/vulgar outputs. The results folder structure is otherwise maintained for further generations.
 The accompanying paper can also be found in this repository.
 
 ## Repository Structure
@@ -59,7 +59,7 @@ There are three types of result files in the `results` directory:
     ```
 
 2. **Run Notebooks**:
-    - Open and run the Jupyter notebooks (`attack.ipynb`, , , ) to perform different evaluations.
+    - Open and run the Jupyter notebooks (`attack.ipynb` etc.) to perform different evaluations.
 
 3. **Analyze Results**:
     - Results will be saved in the directory as JSON and CSV files.
